@@ -19,8 +19,10 @@ public class MainActivity extends Activity {
 		
 		myWebView = (WebView) findViewById(R.id.webview);
 		myWebView.getSettings().setJavaScriptEnabled(true);
-		myWebView.loadUrl("http://git-scm.com/");
+		myWebView.loadUrl("https://www.google.co.in/");
 		myWebView.setWebViewClient(new DVGWebViewClient());
+		myWebView.getSettings().setBuiltInZoomControls(true);
+		
 	}
 	
 	private class DVGWebViewClient extends WebViewClient {
