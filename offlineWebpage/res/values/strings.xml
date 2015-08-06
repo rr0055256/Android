@@ -1,0 +1,14 @@
+<?xml version=	"1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DVG</string>
+    <string-array name = "GIT_ARRAY">
+		<item>Page 1-free and open source</item>
+		<item>Page 2-easy to learn</item>
+		<item>Page 3-staging areas</item>
+		<item>Page 4-multiple workflows</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Click</string>
+    <!--string name="action_settings">Web search</string-->
+</resources>

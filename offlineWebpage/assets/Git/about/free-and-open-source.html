@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","errorBeacon":"bam.nr-data.net","licenseKey":"20c4a8c482","applicationID":"454369","transactionName":"dl5cQkcLXF9XRBoEVlpERhlcClRWSg==","queueTime":10,"applicationTime":12,"ttGuid":"","agentToken":null,"agent":"js-agent.newrelic.com/nr-515.min.js"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(n,t,e){function r(e){if(!t[e]){var o=t[e]={exports:{}};n[e][0].call(o.exports,function(t){var o=n[e][1][t];return r(o?o:t)},o,o.exports)}return t[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({QJf3ax:[function(n,t){function e(n){function t(t,e,a){n&&n(t,e,a),a||(a={});for(var u=c(t),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,e);return s}function a(n,t){f[n]=c(n).concat(t)}function c(n){return f[n]||[]}function u(){return e(t)}var f={};return{on:a,emit:t,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=n("gos");t.exports=e()},{gos:"7eSDFh"}],ee:[function(n,t){t.exports=n("QJf3ax")},{}],gos:[function(n,t){t.exports=n("7eSDFh")},{}],"7eSDFh":[function(n,t){function e(n,t,e){if(r.call(n,t))return n[t];var o=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,t,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return n[t]=o,o}var r=Object.prototype.hasOwnProperty;t.exports=e},{}],D5DuLP:[function(n,t){function e(n,t,e){return r.listeners(n).length?r.emit(n,t,e):(o[n]||(o[n]=[]),void o[n].push(t))}var r=n("ee").create(),o={};t.exports=e,e.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(n,t){t.exports=n("D5DuLP")},{}],XL7HBI:[function(n,t){function e(n){var t=typeof n;return!n||"object"!==t&&"function"!==t?-1:n===window?0:i(n,o,function(){return r++})}var r=1,o="nr@id",i=n("gos");t.exports=e},{gos:"7eSDFh"}],id:[function(n,t){t.exports=n("XL7HBI")},{}],loader:[function(n,t){t.exports=n("G9z0Bl")},{}],G9z0Bl:[function(n,t){function e(){var n=v.info=NREUM.info;if(n&&n.licenseKey&&n.applicationID&&f&&f.body){c(d,function(t,e){t in n||(n[t]=e)}),v.proto="https"===l.split(":")[0]||n.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var t=f.createElement("script");t.src=v.proto+n.agent,f.body.appendChild(t)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=n("handle"),c=n(1),u=window,f=u.document,s="addEventListener",p="attachEvent",l=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-515.min.js"},v=t.exports={offset:i(),origin:l,features:{}};f[s]?(f[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(f[p]("onreadystatechange",r),u[p]("onload",e)),a("mark",["firstbyte",i()])},{1:11,handle:"D5DuLP"}],11:[function(n,t){function e(n,t){var e=[],o="",i=0;for(o in n)r.call(n,o)&&(e[i]=t(o,n[o]),i+=1);return e}var r=Object.prototype.hasOwnProperty;t.exports=e},{}]},{},["G9z0Bl"]);</script>
+
+  <title>About - Git</title>
+
+  <link href='../favicon.ico' rel='shortcut icon' type='image/x-icon'>
+  <link rel="alternate" href="http://git-scm.com/blog.rss" type="application/rss+xml" title="Git - Blog">
+
+  <link rel="stylesheet" media="screen" href="../assets/git-scm-51dae02d97f150a7e22b24f0c7497beb.css" />
+  <script src="../assets/modernizr-00467669c322384bf7496c4c8a3a9923.js"></script>
+<script src="../assets/modernizr-tests-ccd0969e74790fbc9b3b7aaf586aeb1a.js"></script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+  <script src="/javascripts/selectivizr-min.js"></script>
+  <![endif]-->
+
+  <script src="../../use.typekit.com/jsq2fql.js" type="text/javascript"></script>
+  <script>
+    //<![CDATA[
+      try{Typekit.load();}catch(e){}
+    //]]>
+  </script>
+
+</head>
+
+<body id="about">
+
+  <div class="inner">
+    <header>
+  <a href="http://git-scm.com/"><img src="../images/logo@2x.png" width="110" height="46" alt="Git" /></a>
+  <span id="tagline">
+    <em>--</em>distributed-even-if-your-workflow-isnt
+  </span>
+
+  <form id="search" action="http://git-scm.com/search/results">
+    <input id="search-text" name="search" placeholder="Search entire site..." autocomplete="off" type="text" />
+  </form>
+  <div id="search-results"></div>
+</header>
+  </div> <!-- .inner -->
+
+    <div class="inner">
+      <div id="content-wrapper">
+        <aside class="sidebar">
+  <nav>
+    <ul>
+      <li>
+        <a class="active" href="http://git-scm.com/about">About</a>
+      </li>
+      <li>
+        <a href="http://git-scm.com/doc">Documentation</a>
+        <ul class="">
+          <li>
+            <a href="http://git-scm.com/docs">Reference</a>
+          </li>
+          <li>
+            <a href="http://git-scm.com/book">Book</a>
+          </li>
+          <li>
+            <a href="http://git-scm.com/videos">Videos</a>
+          </li>
+          <li>
+            <a href="http://git-scm.com/doc/ext">External Links</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="http://git-scm.com/blog">Blog</a>
+      </li>
+      <li>
+        <a href="http://git-scm.com/downloads">Downloads</a>
+        <ul class="">
+          <li>
+            <a href="http://git-scm.com/downloads/guis">GUI Clients</a>
+          </li>
+          <li>
+            <a href="http://git-scm.com/downloads/logos">Logos</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="http://git-scm.com/community">Community</a>
+      </li>
+    </ul>
+      <hr class="sidebar">
+        <div class="callout">
+  <p>The entire <strong><a href="http://git-scm.com/book">Pro Git book</a></strong> written
+  by Scott Chacon and Ben Straub is available to <a href="http://git-scm.com/book">read online for free</a>.
+  Dead tree versions are available on <a href="http://www.amazon.com/Pro-Git-Scott-Chacon/dp/1484200772?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20">Amazon.com</a>.
+  </p>
+</div>
+
+
+  </nav>
+</aside>
+        <div id="content">
+          <div id="main">
+  
+  <h1>About</h1>
+  
+  <ol id="about-nav">
+    <li>
+      <a href="free-and-open-source.html#branching-and-merging" class="three-line current" id="nav-branching-and-merging" data-section-id="branching-and-merging">Branching and Merging</a>
+    </li>
+    <li>
+      <a href="free-and-open-source.html#small-and-fast" class="two-line" id="nav-small-and-fast" data-section-id="small-and-fast">Small and Fast</a>
+    </li>
+    <li>
+      <a href="free-and-open-source.html#distributed" class="one-line" id="nav-distributed" data-section-id="distributed">Distributed</a>
+    </li>
+    <li>
+      <a href="free-and-open-source.html#info-assurance" class="two-line" id="nav-info-assurance" data-section-id="info-assurance">Data Assurance</a>
+    </li>
+    <li>
+      <a href="free-and-open-source.html#staging-area" class="two-line" id="nav-staging-area" data-section-id="staging-area">Staging Area</a>
+    </li>
+    <li>
+      <a href="free-and-open-source.html#free-and-open-source" class="three-line" id="nav-free-and-open-source" data-section-id="free-and-open-source">Free and Open Source</a>
+    </li>
+  </ol>
+
+  <section class="about current" id="branching-and-merging" style="display: block;">
+
+  <h2>Branching and Merging</h2>
+
+  <p>
+    The Git feature that really makes it stand apart from nearly every other SCM out there is its branching model.
+  </p>
+
+  <p>
+    Git allows and encourages you to have multiple local branches that can be entirely independent of each other. The creation, merging, and deletion of those lines of development takes seconds.
+  </p>
+
+  <p>
+    This means that you can do things like:
+  </p>
+
+  <ul class="bullets">
+    <li>
+      <strong>Frictionless Context Switching</strong>. Create a branch to try out an idea, commit a few times, switch back to where you branched from, apply a patch, switch back to where you are experimenting, and merge it in.
+    </li>
+    <li>
+      <strong>Role-Based Codelines</strong>. Have a branch that always contains only what goes to production, another that you merge work into for testing, and several smaller ones for day to day work.
+    </li>
+    <li>
+      <strong>Feature Based Workflow</strong>. Create new branches for each new feature you're working on so you can seamlessly switch back and forth between them, then delete each branch when that feature gets merged into your main line.
+    </li>
+    <li>
+      <strong>Disposable Experimentation</strong>. Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).
+    </li>
+  </ul>
+
+  <p class="center">
+    <img src="../images/about/branches@2x.png" width="500" height="288" alt="Branches">
+  </p>
+
+  <p>
+    Notably, when you push to a remote repository, you do not have to push all of your branches. You can choose to share just one of your branches, a few of them, or all of them. This tends to free people to try new ideas without worrying about having to plan how and when they are going to merge it in or share it with others.
+  </p>
+
+  <p>
+    There are ways to accomplish some of this with other systems, but the work involved is much more difficult and error-prone. Git makes this process incredibly easy and it changes the way most developers work when they learn it.
+  </p>
+
+  <div class="bottom-nav" style="display: block;">
+    <a href="free-and-open-source.html#small-and-fast" class="next" data-section-id="small-and-fast">Small and Fast →</a>
+  </div>
+
+</section>
+
+
+    <section class="about" id="small-and-fast" style="display: none;">
+
+    <h2>Small and Fast</h2>
+    
+    <p>
+      <strong>Git is fast</strong>. With Git, nearly all operations are performed locally, giving it a huge speed advantage on centralized systems that constantly have to communicate with a server somewhere.
+    </p>
+    
+    <p>
+      Git was built to work on the Linux kernel, meaning that it has had to effectively handle large repositories from day one. Git is written in C, reducing the overhead of runtimes associated with higher-level languages. Speed and performance has been a primary design goal of the Git from the start.
+    </p>
+    
+    <h3>Benchmarks</h3>
+    
+    <p>
+      Let's see how common operations stack up against
+      Subversion, a common centralized version control system that is similar
+      to CVS or Perforce. <em>Smaller is faster.</em>
+    </p>
+    
+    <table width="100%">
+      <tbody>
+        <tr>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:0.649,2.6&amp;chds=0,2.6&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Commit A" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:1.53,24.7&amp;chds=0,24.7&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Commit B" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:0.257,1.09&amp;chds=0,1.09&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Diff Curr" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:0.248,3.99&amp;chds=0,3.99&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Diff Rec" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:1.17,83.57&amp;chds=0,83.57&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Diff Tags" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git*|git|svn&amp;chd=t:21.0,107.5,14.0&amp;chds=0,107.5&amp;chs=100x125&amp;chco=E09FA0|E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Clone" alt="init benchmarks">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:0.012,0.381&amp;chds=0,0.381&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Log (50)" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:0.519,169.197&amp;chds=0,169.197&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Log (All)" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:0.601,82.843&amp;chds=0,82.843&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Log (File)" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:0.896,2.816&amp;chds=0,2.816&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Update" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:1.91,3.04&amp;chds=0,3.04&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Blame" alt="init benchmarks">
+          </td>
+          <td>
+            <img src="https://chart.googleapis.com/chart?chxt=x&amp;cht=bvs&amp;chl=git|svn&amp;chd=t:181,132&amp;chds=0,181&amp;chs=100x125&amp;chco=E09FA0|E05F49&amp;chf=bg,s,fcfcfa&amp;chtt=Size" alt="init benchmarks">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      For testing, large AWS instances were set up in the same availability zone.
+      Git and SVN were installed on both machines, the Ruby repository was copied to
+      both Git and SVN servers, and common operations were performed on both.
+    </p>
+
+    <p>
+      In some cases the commands don't match up exactly. Here, matching on the lowest
+      common denominator was attempted. For example, the 'commit' tests also include
+      the time to push for Git, though most of the time you would not actually be pushing
+      to the server immediately after a commit where the two commands cannot be separated
+      in SVN.
+    </p>
+
+    <p>
+      All of these times are in seconds.
+    </p>
+
+    <table class="benchmarks">
+      <tbody>
+        <tr>
+          <th>Operation</th>
+          <th></th>
+          <th class="right">Git</th>
+          <th class="right">SVN</th>
+        </tr>
+        <tr><td nowrap="">Commit Files (A)</td><td class="desc">Add, commit and push 113 modified files (2164+, 2259-)</td><td class="number"> 0.64</td><td class="number"> 2.60</td><td class="number">4x</td></tr>
+        <tr><td nowrap="">Commit Images (B)</td><td class="desc">Add, commit and push 1000 1k images</td><td class="number"> 1.53</td><td class="number">24.70</td><td class="number">16x</td></tr>
+        <tr><td nowrap="">Diff Current</td><td class="desc">Diff 187 changed files (1664+, 4859-) against last commit</td><td class="number"> 0.25</td><td class="number"> 1.09</td><td class="number">4x</td></tr>
+        <tr><td nowrap="">Diff Recent</td><td class="desc">Diff against 4 commits back (269 changed/3609+,6898-)</td><td class="number"> 0.25</td><td class="number"> 3.99</td><td class="number">16x</td></tr>
+        <tr><td nowrap="">Diff Tags</td><td class="desc">Diff two tags against each other (v1.9.1.0/v1.9.3.0 )</td><td class="number"> 1.17</td><td class="number">83.57</td><td class="number">71x</td></tr>
+        <tr><td nowrap="">Log (50)</td><td class="desc">Log of the last 50 commits (19k of output)</td><td class="number"> 0.01</td><td class="number"> 0.38</td><td class="number">31x</td></tr>
+        <tr><td nowrap="">Log (All)</td><td class="desc">Log of all commits (26,056 commits - 9.4M of output)</td><td class="number"> 0.52</td><td class="number">169.20</td><td class="number">325x</td></tr>
+        <tr><td nowrap="">Log (File)</td><td class="desc">Log of the history of a single file (array.c - 483 revs)</td><td class="number"> 0.60</td><td class="number">82.84</td><td class="number">138x</td></tr>
+        <tr><td nowrap="">Update</td><td class="desc">Pull of Commit A scenario (113 files changed, 2164+, 2259-)</td><td class="number"> 0.90</td><td class="number"> 2.82</td><td class="number">3x</td></tr>
+        <tr><td nowrap="">Blame</td><td class="desc">Line annotation of a single file (array.c)</td><td class="number"> 1.91</td><td class="number"> 3.04</td><td class="number">1x</td></tr>
+      </tbody>
+    </table>
+    
+    <p>
+      Note that this is the best case scenario for SVN - a server with no load with an
+      80MB/s bandwidth connection to the client machine.  Nearly all of these
+      times would be even worse for SVN if that connection was slower, while
+      many of the Git times would not be affected.
+    </p>
+
+    <p>
+      Clearly, in many of these common version control operations, <strong>Git is
+      one or two orders of magnitude faster than SVN</strong>, even under ideal conditions
+      for SVN.
+    </p>
+    
+    <p>
+      One place where Git is slower is in the initial clone operation.
+      Here, Git is downloading the entire history rather than only the latest
+      version. As seen in the above charts, it's not considerably slower for an operation
+      that is only performed once.
+    </p>
+    
+    <table class="benchmarks">
+      <tbody>
+        <tr>
+          <th>Operation</th>
+          <th></th>
+          <th class="right">Git*</th>
+          <th class="right">Git</th>
+          <th class="right">SVN</th>
+        </tr>
+        <tr><td nowrap="">Clone</td><td class="desc">Clone and shallow clone(*) in Git vs checkout in SVN</td><td class="number"> 21.0</td><td class="number">107.5</td><td class="number"> 14.0</td></tr>
+        <tr><td nowrap="">Size (M)</td><td class="desc">Size of total client side data and files after clone/checkout (in M)</td><td></td><td class="number">181.0</td><td class="number">132.0</td></tr>
+      </tbody>
+    </table>
+    
+    <p>
+      It's also interesting to note that the size of the data on the client side
+      is very similar even though Git also has every version of every file for the
+      entire history of the project. This illustrates how efficient it is at compressing
+      and storing data on the client side.
+    </p>
+    
+    <div class="bottom-nav" style="display: block;">
+      <a href="free-and-open-source.html#branching-and-merging" class="previous" data-section-id="branching-and-merging">← Branching and Merging</a>
+      <a href="free-and-open-source.html#distributed" class="next" data-section-id="distributed">Distributed →</a>
+    </div>
+
+  </section>
+
+
+    <section class="about" id="distributed" style="display: none;">
+    
+    <h2>Distributed</h2>
+    
+    <p>
+    One of the nicest features of any Distributed SCM, Git included, is that it's distributed. This means that instead of doing a "checkout" of the current tip of the source code, you do a "clone" of the entire repository.
+    </p>
+    <h3>Multiple Backups</h3>
+    <p>
+    This means that even if you're using a centralized workflow, every user essentially has a full backup of the main server. Each of these copies could be pushed up to replace the main server in the event of a crash or corruption. In effect, there is no single point of failure with Git unless there is only a single copy of the repository.
+    </p>
+    <h3>Any Workflow</h3>
+    <p>
+    Because of Git's distributed nature and superb branching system, an almost endless number of workflows can be implemented with relative ease.
+    </p>
+    <h4>Subversion-Style Workflow</h4>
+    <p>
+    A centralized workflow is very common, especially from people transitioning from a centralized system. Git will not allow you to push if someone has pushed since the last time you fetched, so a centralized model where all developers push to the same server works just fine.
+    </p>
+    <p class="center">
+    <img src="../images/about/workflow-a@2x.png" width="415" height="209" alt="Workflow A">
+    </p>
+    <h4>Integration Manager Workflow</h4>
+    <p>
+    Another common Git workflow involves an integration manager — a single person who commits to the 'blessed' repository. A number of developers then clone from that repository, push to their own independent repositories, and ask the integrator to pull in their changes. This is the type of development model often seen with open source or GitHub repositories.
+    </p>
+    <p class="center">
+    <img src="../images/about/workflow-b@2x.png" width="407" height="164" alt="Workflow B">
+    </p>
+    <h4>Dictator and Lieutenants Workflow</h4>
+    <p>
+    For more massive projects, a development workflow like that of the Linux kernel is often effective.
+    In this model, some people ('lieutenants') are in charge of a specific subsystem of the project and they merge in all changes related to that subsystem. Another integrator (the 'dictator') can pull changes from only his/her lieutenants and then push to the 'blessed' repository that everyone then clones from again.
+    </p>
+    <p class="center">
+    <img src="../images/about/workflow-c@2x.png" width="562" height="303" alt="Workflow C">
+    </p>
+    <div class="bottom-nav" style="display: block;">
+      <a href="free-and-open-source.html#small-and-fast" class="previous" data-section-id="small-and-fast">← Small and Fast</a>
+      <a href="free-and-open-source.html#info-assurance" class="next" data-section-id="info-assurance">Data Assurance →</a>
+    </div>
+  </section>
+
+    <section class="about" id="info-assurance" style="display: none;">
+    <h2>Data Assurance</h2>
+    <p>
+    The data model that Git uses ensures the cryptographic integrity of every bit
+    of your project.  Every file and commit is checksummed and retrieved by its
+    checksum when checked back out. It's impossible to get anything out of Git
+    other than the <strong>exact bits you put in</strong>.
+    </p>
+    <img height="522" src="../images/assurance@2x.png" width="628">
+    <p>
+    It is also impossible to change any file, date, commit message, or any other
+    data in a Git repository without changing the IDs of everything after it.
+    This means that if you have a commit ID, you can be assured not only that
+    your project is exactly the same as when it was committed, but
+    that nothing in its history was changed.
+    </p>
+    <p>
+    Most centralized version control systems provide no such integrity by default.
+    </p>
+    <div class="bottom-nav" style="display: block;">
+      <a href="free-and-open-source.html#distributed" class="previous" data-section-id="distributed">← Distributed</a>
+      <a href="free-and-open-source.html#staging-area" class="next" data-section-id="staging-area">Staging Area →</a>
+    </div>
+  </section>
+ 
+
+   <section class="about" id="staging-area" style="display: none;">
+    <h2>Staging Area</h2>
+    <p>
+    Unlike the other systems, Git has something called the "staging area" or "index". This is an intermediate area where commits can be formatted and reviewed before completing the commit.
+    </p>
+    <p>
+    One thing that sets Git apart from other tools is that it's possible to quickly stage some of your files and commit them without committing all of the other modified files in your working directory or having to list them on the command line during the commit.
+    </p>
+    <p class="center">
+    <img src="../images/about/index1@2x.png" width="336" height="194" alt="Index 1">
+    </p>
+    <p>
+    This allows you to stage only portions of a modified file. Gone are the days of making two logically unrelated modifications to a file before you realized that you forgot to commit one of them. Now you can just stage the change you need for the current commit and stage the other change for the next commit. This feature scales up to as many different changes to your file as needed.
+    </p>
+    <p>
+    Of course, Git also makes it easy to ignore this feature if you don't want that kind of control — just add a '-a' to your commit command in order to add all changes to all files to the staging area.
+    </p>
+    <p class="center">
+    <img src="../images/about/index2@2x.png" width="338" height="185" alt="Index 2">
+    </p>
+    <div class="bottom-nav" style="display: block;">
+      <a href="free-and-open-source.html#info-assurance" class="previous" data-section-id="info-assurance">← Data Assurance</a>
+      <a href="free-and-open-source.html#free-and-open-source" class="next" data-section-id="free-and-open-source">Free and Open Source →</a>
+    </div>
+  </section>
+
+
+    <section class="about" id="free-and-open-source" style="display: none;">
+    <h2>Free and Open Source</h2>
+    <p>Git is released under the <a href="http://opensource.org/licenses/GPL-2.0"
+	>GNU General Public License version 2.0</a>, which is an
+	<a href="http://www.opensource.org/docs/osd">open source license</a>.
+	The Git project chose to use GPLv2 to guarantee your freedom to
+	share and change free software---to make sure the software is
+	free for all its users.</p>
+
+    <p>However, we do restrict the use of the term "Git" and the
+       <a href="http://git-scm.com/downloads/logos">logos</a> to avoid confusion. Please
+       see our <a href="http://git-scm.com/trademark">trademark</a> policy for
+       details.</p>
+
+    <div class="bottom-nav" style="display: block;">
+      <a href="free-and-open-source.html#staging-area" class="previous" data-section-id="staging-area">← Staging Area</a>
+    </div>
+  </section>
+
+
+  
+</div>
+
+
+        </div>
+      </div>
+      <footer>
+  <div class="site-source">
+    This <a href="https://github.com/git/git-scm.com/blob/master/README.md#license">open sourced</a> site is <a href="https://github.com/git/git-scm.com">hosted on GitHub.</a><br>
+    Patches, suggestions and comments are welcome.
+  </div>
+  <div class="sfc-member">
+    Git is a member of <a href="http://git-scm.com/sfc">Software Freedom Conservancy</a>
+  </div>
+</footer>
+
+<script src="../assets/jquery-1.7.1.min-be9a6d736d84f3afff832c45505a93ae.js"></script>
+<script src="../assets/jquery-ui-1.8.18.custom.min-b4925c900f94bfd386687eee6c7e641b.js"></script>
+<script src="../assets/jquery.defaultvalue-9dacb30fffc5f8c850fb08b580f804f5.js"></script>
+<script src="../assets/session.min-aa06ccb9184d9842c39f131ce822e02c.js"></script>
+<script src="../assets/site-0f10deab99d4bed911f2f2bb6cf24b5a.js"></script>
+
+    </div>
+
+</body>
+</html>
