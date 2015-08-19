@@ -1,0 +1,86 @@
+/*!
+ * Start Bootstrap - Full Width Pics HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background-size: cover;
+    padding: 0px 0;
+    min-height: 400px;
+}
+#slide1{
+	background: url('../assets/images/Jawa_Stock_2.jpg') no-repeat center center scroll;
+}
+#slide2{
+	background: url('../assets/images/Jawa_Stock_1.jpg') no-repeat center center scroll;
+}
+#slide3{
+	background: url('../assets/images/Jawa_Stock_3.jpg') no-repeat center center scroll;
+}
+#slide4{
+	background: url('../assets/images/Jawa_Stock_4.jpg') no-repeat center center scroll;
+}
+.slide-anchor{
+	text-decoration: none;
+	color: inherit;
+}
+.image-bg-fluid-height .section-title{
+	text-align: left;
+	color: #FFF;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 200px;
+	font-weight: 600;
+	text-shadow: 1px 2px 2px #111;
+}
+
+.image-bg-fixed-height {
+	background: url('../assets/images/Jawa_Stock_1.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .section-heading {
+        font-size: 2em;
+    }
+}

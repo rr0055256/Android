@@ -25,7 +25,7 @@
         android:entries="@array/GIT_ARRAY"
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp"
-        android:background="#FF8800"/>
+        android:background="#FFFFFF"/>
         	
     
 </android.support.v4.widget.DrawerLayout>
