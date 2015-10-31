@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_shikar" android:icon="@drawable/shikar"
+            android:title="Shikar Dhawan" />
+        <item android:id="@+id/nav_rohit" android:icon="@drawable/rohit"
+            android:title="Rohit Sharma" />
+        <item android:id="@+id/nav_jinks" android:icon="@drawable/jinks"
+            android:title="Ajinkya Rahane" />
+        <item android:id="@+id/nav_virat" android:icon="@drawable/virat"
+            android:title="Virat Kohli"/>
+        <item android:id="@+id/nav_ms" android:icon="@drawable/ms"
+            android:title="MS Dhoni"/>
+    </group>
+
+</menu>
