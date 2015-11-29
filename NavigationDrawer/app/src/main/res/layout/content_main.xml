@@ -16,12 +16,9 @@
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:id="@+id/list_slidermenu"
-        android:layout_gravity="start"
+        android:layout_gravity="left|start"
         android:choiceMode="singleChoice"
         android:divider="@color/colorPrimaryDark"
-        android:dividerHeight="1dp"
-        android:listSelector="drawable/list_selector"
-        android:background="@color/colorAccent"
-        />
+        android:background="#18afeb"/>
 
 </android.support.v4.widget.DrawerLayout>
