@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6361467-8f74-44d2-a1ca-54b0850d4485" name="Default" comment="JSON HTTP project">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/androidTest/java/com/helloworld/raman/jsonviahttpservercall/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/test/java/com/helloworld/raman/jsonviahttpservercall/ExampleUnitTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/java/com/helloworld/raman/jsonviahttpservercall/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/layout/activity_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/layout/content_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/menu/menu_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/res/values-v21/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/java/com/helloworld/raman/jsonviahttpservercall/MainActivity.java" afterPath="$PROJECT_DIR$/JsonViaHttpServerCall/app/src/main/java/com/helloworld/raman/jsonviahttpservercall/MainActivity.java" />
     </list>
     <ignored path="Android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -299,7 +264,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />

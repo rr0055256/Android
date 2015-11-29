@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         JSONObject object = getJsonObject();
 
-        String data = null;
+        String data = "";
         try {
             JSONArray jsonArray = object.getJSONArray("Users");
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 String lastName = jsonObject.getString("lastname");
                 String userName = jsonObject.getString("username");
 
-                data = "Node : "+i+" \n First Name : "+firstname+" \n Last Name : "+lastName+" \n User Name : "+userName+"\n";
+                data += "Node : "+i+" \n First Name : "+firstname+" \n Last Name : "+lastName+" \n User Name : "+userName+"\n";
 
             }
             jsonHttpDataTextView.setText(data);
@@ -76,9 +76,9 @@ public class MainActivity extends AppCompatActivity {
 
             while((b = inputStreamReader.read()) != -1){
                 builder.append((char)b);
-
-                jsonObject = new JSONObject(builder.toString());
             }
+            jsonObject = new JSONObject(builder.toString());
+            connection.disconnect();
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
