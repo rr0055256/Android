@@ -1,4 +1,4 @@
-package com.helloworld.raman.animations;
+package com.helloworld.raman.jsonpractice;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -8,23 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity{
-
-    public void fade(View view) {
-
-        ImageView imageView = (ImageView) findViewById(R.id.re1);
-
-        ImageView imageView1 = (ImageView) findViewById(R.id.imageView);
-        imageView.animate().alpha(0f).setDuration(2000);
-
-        imageView1.animate().alpha(1f).setDuration(2000);
-
-//        imageView.animate().translationXBy(1000f).setDuration(2000);
-
-
-    }
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
